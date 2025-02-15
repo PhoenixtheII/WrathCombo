@@ -91,9 +91,6 @@ namespace WrathCombo.Core
             try
             {
 
-                if (FilteredCombos is null)
-                    UpdateFilteredCombos();
-                
                 if (Service.Configuration.PerformanceMode)
                     return OriginalHook(actionID);
 
